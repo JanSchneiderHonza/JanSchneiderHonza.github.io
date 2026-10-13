@@ -21,7 +21,7 @@
     --shadow-glow: 0 0 20px rgba(139, 92, 246, 0.25);
 }
 
-/* 2. BASE & RESET STYLES */
+
 * {
     margin: 0;
     padding: 0;
@@ -96,7 +96,7 @@ a:hover {
     color: #ffffff;
 }
 
-/* 4. LAYOUT CONTAINER (SIDEBAR + MAIN) */
+
 .layout-container {
     display: flex;
     flex: 1;
@@ -107,7 +107,7 @@ a:hover {
     gap: 2rem;
 }
 
-/* 5. SIDEBAR (<aside>) */
+
 .sidebar {
     width: 280px;
     flex-shrink: 0;
@@ -189,7 +189,6 @@ a:hover {
     color: var(--primary-vibrant);
 }
 
-/* 6. MAIN CONTENT AREA (<main>) */
 .main-content {
     flex: 1;
     display: flex;
@@ -221,7 +220,7 @@ a:hover {
     color: var(--primary-vibrant);
 }
 
-/* 7. SKILLS & PROJECTS GRID */
+
 .skills-grid {
     display: flex;
     flex-wrap: wrap;
@@ -267,7 +266,7 @@ a:hover {
     margin-bottom: 0.5rem;
 }
 
-/* 8. DEDICATED FUTURE SHOWCASE SECTION */
+
 .future-showcase-section {
     border: 2px dashed var(--secondary-vibrant);
     background-color: rgba(30, 41, 59, 0.7);
