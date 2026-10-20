@@ -132,7 +132,7 @@ a:hover {
     margin-bottom: 0.5rem;
 }
 
-.profile-card h2 {
+.profile-card h1 {
     font-size: 1.3rem;
     color: var(--text-light);
 }
@@ -146,7 +146,7 @@ a:hover {
     margin-bottom: 1.5rem;
 }
 
-.sidebar-section h3 {
+.sidebar-section h2 {
     font-size: 0.95rem;
     text-transform: uppercase;
     letter-spacing: 1px;
