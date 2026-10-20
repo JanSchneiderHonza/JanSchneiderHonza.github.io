@@ -100,7 +100,7 @@ a:hover {
 .layout-container {
     display: flex;
     flex: 1;
-    max-width: 1300px;
+    max-width: 1500px;
     width: 100%;
     margin: 0 auto;
     padding: 2rem 1.5rem;
@@ -248,10 +248,12 @@ a:hover {
 }
 
 .project-card {
+    display: block;
     background-color: var(--bg-dark);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-md);
     padding: 1.25rem;
+    color: var(--text-light);
     transition: border-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -260,105 +262,17 @@ a:hover {
     transform: translateY(-3px);
 }
 
+.project-card:focus-visible {
+    outline: 2px solid var(--accent-vibrant);
+    outline-offset: 3px;
+}
+
 .project-icon {
     font-size: 2rem;
     color: var(--accent-vibrant);
     margin-bottom: 0.5rem;
 }
 
-
-.future-showcase-section {
-    border: 2px dashed var(--secondary-vibrant);
-    background-color: rgba(30, 41, 59, 0.7);
-    position: relative;
-}
-
-.section-badge {
-    position: absolute;
-    top: -12px;
-    right: 20px;
-    background: linear-gradient(135deg, var(--primary-vibrant), var(--secondary-vibrant));
-    color: #fff;
-    font-size: 0.75rem;
-    font-weight: bold;
-    padding: 0.2rem 0.8rem;
-    border-radius: 12px;
-    text-transform: uppercase;
-}
-
-.section-description {
-    color: var(--text-muted);
-    font-size: 0.95rem;
-    margin-bottom: 1.5rem;
-}
-
-.future-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1.25rem;
-}
-
-.future-card {
-    background-color: var(--bg-dark);
-    border: 1px solid var(--border-vibrant);
-    border-radius: var(--radius-md);
-    padding: 1.25rem;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.future-card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-glow);
-}
-
-.slot-number {
-    position: absolute;
-    top: 10px;
-    right: 12px;
-    font-size: 0.8rem;
-    font-weight: bold;
-    color: var(--text-muted);
-    opacity: 0.5;
-}
-
-.slot-icon {
-    font-size: 2.2rem;
-    color: var(--primary-vibrant);
-    margin-bottom: 0.5rem;
-}
-
-.future-card h3 {
-    font-size: 1.1rem;
-    color: var(--text-light);
-    margin-bottom: 0.4rem;
-}
-
-.future-card p {
-    font-size: 0.85rem;
-    color: var(--text-muted);
-    margin-bottom: 1rem;
-}
-
-.slot-link {
-    font-size: 0.85rem;
-    font-weight: 600;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.3rem;
-}
-
-.placeholder-slot {
-    border: 2px dashed var(--border-color);
-    background-color: rgba(15, 23, 42, 0.5);
-}
-
-.placeholder-slot .slot-icon {
-    color: var(--text-muted);
-}
 
 /* 9. CONTACT BOX */
 .contact-box {
